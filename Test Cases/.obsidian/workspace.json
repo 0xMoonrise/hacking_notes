@@ -1,45 +1,43 @@
 {
   "main": {
-    "id": "3719cf3ce8711bf3",
+    "id": "352ca862c387cb0a",
     "type": "split",
     "children": [
       {
-        "id": "14bcfb77f87547eb",
+        "id": "794be5bf0aff779a",
         "type": "tabs",
         "children": [
           {
-            "id": "a1389d8ac1604866",
+            "id": "26f411872cb137a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cross Site Scripting/Case 2.md",
+                "file": "IDOR.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "72fdac9ee9045026",
+            "id": "252d5e5a14a081c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cross Site Scripting/Case 5.md",
+                "file": "Cross-Site Scripting.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8070106dc4db340f",
+            "id": "9fbdfa8cd4c261ef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "Cross Site Scripting/Case 5.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.5.8"
               }
             }
           }
@@ -50,15 +48,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3076eb804b7c1882",
+    "id": "1f4adeb7d6689a4b",
     "type": "split",
     "children": [
       {
-        "id": "62674423418d9521",
+        "id": "b6fd64b34552eaf8",
         "type": "tabs",
         "children": [
           {
-            "id": "c54b5ef1b087b11a",
+            "id": "c17ce1f6656f1f2a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -68,7 +66,7 @@
             }
           },
           {
-            "id": "57b8e0466b7c7be8",
+            "id": "b43b777601fe7da7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -83,7 +81,7 @@
             }
           },
           {
-            "id": "f18c0b7b36edb5a3",
+            "id": "7ff67d48dbdba879",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -97,20 +95,20 @@
     "width": 300
   },
   "right": {
-    "id": "4732351b69c85bde",
+    "id": "ec1dc696dad31e2e",
     "type": "split",
     "children": [
       {
-        "id": "244cb0aff0c7c8dc",
+        "id": "f706d8e4775a1776",
         "type": "tabs",
         "children": [
           {
-            "id": "4c06e0b4bb491192",
+            "id": "94b4f0e6d99ad1bd",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cross Site Scripting/Case 5.md",
+                "file": "Cross-Site Scripting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,19 +120,19 @@
             }
           },
           {
-            "id": "6f0fd07fd950a9d0",
+            "id": "88899b146692af3d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cross Site Scripting/Case 5.md",
+                "file": "Cross-Site Scripting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "2c17002d8d3c15b2",
+            "id": "ca550fe83b585aa6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -145,12 +143,12 @@
             }
           },
           {
-            "id": "d389339e92386d94",
+            "id": "653c4a730614257c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cross Site Scripting/Case 5.md"
+                "file": "Cross-Site Scripting.md"
               }
             }
           }
@@ -171,15 +169,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8070106dc4db340f",
+  "active": "9fbdfa8cd4c261ef",
   "lastOpenFiles": [
-    "Cross Site Scripting/Case 4.md",
-    "Cross Site Scripting/Case 5.md",
-    "Template.md",
-    "Cross Site Scripting/Case 0.md",
-    "Cross Site Scripting/Case 3.md",
-    "Cross Site Scripting/Case 2.md",
-    "Cross Site Scripting/Case 1.md",
-    "Cross Site Scripting"
+    "IDOR.md",
+    "Cross-Site Scripting.md"
   ]
 }

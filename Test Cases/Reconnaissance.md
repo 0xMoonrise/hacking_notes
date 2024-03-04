@@ -1,0 +1,19 @@
+***
+- Identify web server technologies and database
+- Subsidiary and acquisition enumeration
+- Reverse lookup
+- ANS & IP Space enumeration and service enumeration
+- Google dorking
+- Github recon
+- Directory enumeration
+- IP range enumeration
+- JS files analysis
+- Subdomain enumeration and brute forcing
+- Subdomain takeover
+- Parameter fuzzing
+- Port scanning
+- Template-Based Scanning (Nuclei)
+- Wayback History
+- Broken link hijacking
+- Internet search engine discovery
+- Misconfigured cloud storage
