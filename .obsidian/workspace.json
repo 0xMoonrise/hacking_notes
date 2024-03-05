@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Test Cases/Business Logic Error.md",
+                "file": "websites and articles.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test Cases/Business Logic Error.md",
+                "file": "websites and articles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Test Cases/Business Logic Error.md",
+                "file": "websites and articles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Test Cases/Business Logic Error.md"
+                "file": "websites and articles.md"
               }
             }
           }
@@ -148,13 +148,29 @@
   },
   "active": "23ae0b12015ab130",
   "lastOpenFiles": [
-    "Mapping the Attack Surface.md",
-    "Enumeration/Fuzzing.md",
-    "Enumeration/Nuclei.md",
-    "Enumeration/Nmap.md",
-    "Enumeration/DNS.md",
+    "README.md",
     "Tooling notes.md",
-    "websites and articles.md",
-    "README.md"
+    "Mapping the Attack Surface.md",
+    "Code Snippets/Javascript.md",
+    "Enumeration/DNS.md",
+    "Enumeration/Port Scanning.md",
+    "Enumeration/Nuclei.md",
+    "Enumeration/Fuzzing.md",
+    "Test Cases/Dorks.md",
+    "Test Cases/CSRF Checklist.md",
+    "Test Cases/Cross-Site Scripting.md",
+    "Test Cases/Bypasses.md",
+    "Test Cases/Business Logic Error.md",
+    "Test Cases/Authentication Testing.md",
+    "Test Cases/RCE.md",
+    "Test Cases/Reconnaissance.md",
+    "Test Cases/Upload Function.md",
+    "Test Cases/SSRF Payloads to Bypass Firewall.md",
+    "Test Cases/Server Site Template Injection.md",
+    "Test Cases/Path Traversal.md",
+    "Test Cases/Open redirect bypasses.md",
+    "Test Cases/IDOR.md",
+    "Test Cases/General Bugs.md",
+    "websites and articles.md"
   ]
 }
