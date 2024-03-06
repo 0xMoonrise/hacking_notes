@@ -10,3 +10,25 @@
 - **Bypass Referer Validation:** Try bypassing Referer validation by including the following code in your CSRF proof-of-concept HTML file: `<meta name="referrer" content="never">`
 - **Steal CSRF tokens using XSS or CORS:** Test if the application is vulnerable to Cross-Site Scripting or Cross-Origin Resource Sharing attacks, which can be utilized to steal CSRF tokens.
 - **Bypass JSON-based CSRF protection:** If the application implements JSON-based CSRF protection, try bypassing it using methods such as sending date in plain text or exploiting Flash-based CSRF vulnerabilities
+
+---
+**CSRF Functions checklist**
+- Delete account
+- Change email
+- Change password, if old password not required
+- Add new admin if you target support roles
+- Change normal information first, last name etc.
+- Checkbox like receive notification
+- Change profile picture/delete it
+- POST xss to CSRF
+
+**CSRF Bypasses**
+- Delete token and send request with blank parameter
+- Delete token parameter
+- Change request from POST to GET
+- Change body encoding
+- Replace token with random value
+- Delete referee or use this line in CSRF file | `<meta name="referrer" conent="no-referrer">`
+- Use another user token
+- Changing one character in token, Content length bypass
+

