@@ -58,8 +58,7 @@ file.
 ```
 
 ---
-
-**Tips on bypassing 403 and 401 errors**
+### Tips on bypassing 403 and 401 errors
 
 Here's a list of tips on how to bypass 403 Forbidden and 401 Unauthorized errors:
 
@@ -81,3 +80,19 @@ Here's a list of tips on how to bypass 403 Forbidden and 401 Unauthorized errors
 5. **Method switching:** Change the method from GET to POST, and see if you get something
 6. **Via IP, Vhost:** Access the site via its IP or Vhost to get the forbidden content.
 7. **Fuzzing:** By brute forcing (fuzzing) files or directories further 
+---
+### Account Takeover Via Rate-Limit Bypass
+In a private bug bounty program, when a password reset was initiated, users were required to enter a `six-digit numeric code` sent to their email for verification.
+
+To prevent `brute forece` attacks, the application implemented `rate-limit` protection, restricting the number of requests users could make within a specific time frame. If this limit was surpassed, the system issued a `429 Too Many Requests` error message.
+
+However, the rate limit protection was bypassed by admin two `X-Forwarded-For: IP` headers.
+```http
+POST /reset HTTP/2
+Host: example.com
+X-Forwarded-For: 1.1.1.1
+X-Forwarded-For: 2.2.2.2
+```
+By replacing the IP address in the second `X-Forwarded-For` header, it came possible to bypass the `rate-limit` and try multiple code until the correct one was found.
+
+Exploiting this vulnerability allowed for the unauthorized takeover of any account within the application.

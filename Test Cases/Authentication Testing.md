@@ -1,6 +1,5 @@
 ***
-
-**Forgot password testing**
+### Forgot password testing
 - Failure to validate session on Logout and Password reset
 - Check if forget password reset link/code uniqueness
 - Check if reset link does get expire or not if its not used by the user for certain amount of time
@@ -16,8 +15,7 @@
 - Ask for two password reset link and use the older on from user's email
 
 ---
-
-**Authentication**
+### Authentication
 - Username enumeration
 - Bypass authentication using various SQL injection on username and password field
 - Lack of password confirmation on
@@ -83,8 +81,7 @@
 7. Using the key, I changed my role from `VIEWER` to `ADMIN` and had full control over the organization
 
 ---
-
-**Bypassing two-factor authentication**
+### Bypassing two-factor authentication
 
 Flawed two-factor verification logic sometimes flawed logic in two-factor authentication means that after a user has completed the initial login step, the website does't adequately verify that same user is completing the second step for example, the user logs with their normal credentials in the first step as follows:
 ```http
@@ -120,8 +117,7 @@ verification-code=123456
 ```
 
 ---
-
-**Common password reset vulnerabilities**
+### Common password reset vulnerabilities
 1. Password reset poisoning
 2. Predictable reset Tokens
 3. Expired token reuse
@@ -130,7 +126,7 @@ verification-code=123456
 6. Unprotected password reset forms
 
 ---
-**Password reset functionality bugs:**
+### Password reset functionality bugs:
 - No rate limiting on password reset
 - Password reset link not expiring
 - Password reset with manipulating email parameter
@@ -143,7 +139,7 @@ verification-code=123456
 - Self-XSS in password reset functionality
 - Change in referer lead to malicious hyperlink in email
 ---
-**Registration feature testing**
+### Registration feature testing
 - Check for duplicate registration/overwrite existing user
 - Check for weak password policy
 - Check for reuse existing usernames
@@ -155,7 +151,7 @@ verification-code=123456
 	- Do a registration using the username such as images, contact, portfolio
 	- Check if those default folders have been overwritten by your profile link or not
 ---
-**Session Management Testing**
+### Session Management Testing
 - Identify actual session cookie out of bulk cookies in the application
 - Decode cookies using some standard decoding algorithms such as Base64, hex, URL, etc
 - Modify **cookie.session** token value, by 1 bit/byte. Then resubmit and do the same for all tokens. Reduce the amount of work you need to perform in order to identify which part of the token is actually being used and which is not

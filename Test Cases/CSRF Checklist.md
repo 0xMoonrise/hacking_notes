@@ -1,3 +1,4 @@
+### CSRF standard 
 - **Capture requests in Burp:** use Burp or a similar tool to intercept and analyze requests to identify if there is any CSRF token present.
 - **Check token predictability**: Assess if the CSRF tokens used in the application are predictable or easily guessable.
 - **Remove header-base tokens:** If the CSRF token is included in a header, temporarily remove it from the request and check if the request still functions correctly.
@@ -12,7 +13,7 @@
 - **Bypass JSON-based CSRF protection:** If the application implements JSON-based CSRF protection, try bypassing it using methods such as sending date in plain text or exploiting Flash-based CSRF vulnerabilities
 
 ---
-**CSRF Functions checklist**
+### CSRF Functions checklist
 - Delete account
 - Change email
 - Change password, if old password not required
@@ -21,7 +22,6 @@
 - Checkbox like receive notification
 - Change profile picture/delete it
 - POST xss to CSRF
-
 **CSRF Bypasses**
 - Delete token and send request with blank parameter
 - Delete token parameter

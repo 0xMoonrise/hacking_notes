@@ -1,5 +1,5 @@
 ***
-
+### Exfiltration of sensitive data with SSTI
 Detection:
 ```django
 {% if 'ahsan' == 'ahsan' %} a {% endif %}
@@ -27,8 +27,7 @@ hascat -m 10000 hashed_passwords rockyou.txt
 Django Admin Panel Pwn
 
 ---
-
-**SSTI (Server Side Template Injection) Payload List**
+### SSTI (Server Side Template Injection) Payload List
 ```
 {7*7}
 *{7*7}

@@ -1,6 +1,5 @@
 ***
-
-**Amount Manipulation**
+### Amount Manipulation
 - Enter the correct coupon response into the wrong one
 - Order the product and cancel it (you might find the canceling money in the request and tamper it)
 - if value to amount manipulation then add this value as mount -ve to get refund on your account
