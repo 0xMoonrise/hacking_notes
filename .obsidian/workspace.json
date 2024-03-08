@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Test Cases/General Bugs.md",
+                "file": "Test Cases/IDOR.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test Cases/General Bugs.md",
+                "file": "Test Cases/IDOR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Test Cases/General Bugs.md",
+                "file": "Test Cases/IDOR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Test Cases/General Bugs.md"
+                "file": "Test Cases/IDOR.md"
               }
             }
           }
@@ -148,20 +148,20 @@
   },
   "active": "23ae0b12015ab130",
   "lastOpenFiles": [
-    "Test Cases/Cross-Site Scripting.md",
+    "Test Cases/General Bugs.md",
+    "Test Cases/SSRF Payloads to Bypass Firewall.md",
+    "Test Cases/RCE.md",
     "Test Cases/Bypasses.md",
+    "Test Cases/Cross-site request forgery.md",
+    "Test Cases/Cross-Site Scripting.md",
     "Enumeration/Fuzzing.md",
     "Mapping the Attack Surface.md",
     "Test Cases/Upload Function.md",
-    "Test Cases/SSRF Payloads to Bypass Firewall.md",
     "Test Cases/Server Site Template Injection.md",
     "Test Cases/Reconnaissance.md",
-    "Test Cases/RCE.md",
     "Test Cases/Path Traversal.md",
     "Test Cases/Open redirect bypasses.md",
-    "Test Cases/General Bugs.md",
     "Test Cases/Dorks.md",
-    "Test Cases/CSRF Checklist.md",
     "Test Cases/Business Logic Error.md",
     "Test Cases/Authentication Testing.md",
     "Code Snippets/Javascript.md",
