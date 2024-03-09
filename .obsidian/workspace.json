@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code Snippets/Javascript.md",
+                "file": "Code Snippets/Python.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code Snippets/Javascript.md",
+                "file": "Code Snippets/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code Snippets/Javascript.md",
+                "file": "Code Snippets/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code Snippets/Javascript.md"
+                "file": "Code Snippets/Python.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "23ae0b12015ab130",
   "lastOpenFiles": [
+    "Code Snippets/Javascript.md",
     "Mapping the Attack Surface.md",
     "Code Snippets/Python.md",
     "Test Cases/Upload Function.md",
@@ -169,7 +170,6 @@
     "Test Cases/Dorks.md",
     "Test Cases/Business Logic Error.md",
     "Test Cases/Authentication Testing.md",
-    "Code Snippets/Javascript.md",
     "Enumeration/Nuclei.md",
     "README.md",
     "Enumeration/DNS.md",
