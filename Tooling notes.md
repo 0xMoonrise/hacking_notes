@@ -5,6 +5,8 @@ md5 cracking
 hashcat -m [mode] hashes.txt rockyou.txt
 ```
 
+Most common modes used on `ctfs`
+
 | name    | mode |
 | ------- | ---- |
 | md5     | 0    |
