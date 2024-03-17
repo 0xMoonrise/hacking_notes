@@ -1,3 +1,4 @@
+### Information Gathering
 **Operating-System:**
 - 
 **Web-Technology:**
@@ -5,11 +6,15 @@ _Content Management System/Backend Technology_
 - 
 **Hostname:**
 - 
+**Security Policy:**
+- 
+**Functionalities:**
+- 
 <%* 
 let filename = tp.file.title;
 
 if ( filename.startsWith("Untitled") ) {
-  filename = await tp.system.prompt("File name: ");
+  filename = tp.file.folder(true).split('/')[1];
   await tp.file.rename(filename);
   tp.file.move("01 - HackTheBox/"+filename+'/'+filename)
 } 
@@ -24,10 +29,14 @@ const address = await tp.system.prompt("Set the target address");
 <%address%>
 ```
 ### Network Scanning
+- [i] The following command get the relevant information from logs
+```bash
+grep -P '^[A-Z]{4}|^[0-9]' Logs/all_ports_tcp.nmap | xclip -sel clip
+```
 #### Network Scanning TCP
 - [ ] Nmap scanning TCP
 ```bash
-sudo nmap -sCV -p- --open -vvv --min-rate=5000 <%address%> -oN logs/all_ports_tcp.nmap
+sudo nmap -sCV -p- --open -vvv --min-rate=5000 <%address%> -oN Logs/all_ports_tcp.nmap
 ```
 - Relevant information about scans
 ```
@@ -36,9 +45,10 @@ sudo nmap -sCV -p- --open -vvv --min-rate=5000 <%address%> -oN logs/all_ports_tc
 #### Network Scanning UDP
 - [ ] Nmap scanning UDP
 ```bash
-sudo nmap -sUV --top-ports 1000 -vvv <%address%> -oN logs/udp_top_1000_ports.nmap
+sudo nmap -sUV --top-ports 1000 -vvv <%address%> -oN Logs/udp_top_1000_ports.nmap
 ```
 - Relevant information about scans
 ```
 
 ```
+

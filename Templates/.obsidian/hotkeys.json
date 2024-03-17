@@ -1,0 +1,10 @@
+{
+  "app:reload": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "R"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "bc8b350e71af9bb3",
+    "type": "split",
+    "children": [
+      {
+        "id": "02a5bc12c1b2ce5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b66da7c0cefe9dd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/00 - Reconnaissance.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e2dce4de39ede75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - HackTheBox/Validation/Validation.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fdfc5796e97a227b",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e7f970d12947f23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3452ec2cc27be948",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "63f8869eb74f3834",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ab035d7eb98b76dd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8ba292ea574851b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "af486b7544a2d897",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf9ff088f34159f7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01 - HackTheBox/Validation/Validation.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "excel:Create Excel File": false
+    }
+  },
+  "active": "2e2dce4de39ede75",
+  "lastOpenFiles": [
+    "01 - HackTheBox/FormulaX/FormulaX.md",
+    "01 - HackTheBox/Carrier/Carrier.md",
+    "01 - HackTheBox/Carrier/Logs/all_ports.nmap",
+    "Templates/01 - Fuzzing.md",
+    "01 - HackTheBox/Carrier/Leaked/diagram_for_tac.png",
+    "01 - HackTheBox/Carrier/Leaked/error_codes.pdf",
+    "01 - HackTheBox/Carrier/Leaked",
+    "Templates/04 - Gathering URLs.md",
+    "01 - HackTheBox/Carrier/Logs/udp_top_1000_ports.nmap",
+    "Templates/00 - Reconnaissance.md",
+    "01 - HackTheBox/Test/Test.md",
+    "01 - HackTheBox/Test/Scripts",
+    "01 - HackTheBox/Test/Logs",
+    "Templates/Untitled.md",
+    "01 - HackTheBox/Test",
+    "01 - HackTheBox/Carrier/Logs/all_ports_tcp.nmap",
+    "01 - HackTheBox/Carrier/Scripts",
+    "01 - HackTheBox/Carrier/Logs",
+    "01 - HackTheBox/Blocky/Blocky.md",
+    "01 - HackTheBox/Crafty/Crafty.md",
+    "Templates/02 - VHost Discovery.md",
+    "Templates/03 - Information Leakage.md",
+    "Templates/11 - Attack path.md",
+    "01 - HackTheBox/Valentine/Valentine.md",
+    "01 - HackTheBox/Valentine/Scripts/CVE-2018-15473/README.md",
+    "01 - HackTheBox/Valentine/Scripts/heartbleed-poc/README.md",
+    "01 - HackTheBox/Validation/Validation.md",
+    "Templates/Application Mapping.md",
+    "01 - HackTheBox/Validation/Images/Pasted image 20240312224838.png",
+    "01 - HackTheBox/Untitled/Untitled.md",
+    "01 - HackTheBox/01 - HackTheBox/01 - HackTheBox.md",
+    "01 - HackTheBox/FormulaX/10 - Application Mapping.md",
+    "01 - HackTheBox/FormulaX/Untitled 1.md",
+    "Untitled.canvas"
+  ]
+}

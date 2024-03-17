@@ -1,0 +1,10 @@
+{
+  "attachmentFolderPath": "./Images",
+  "showUnsupportedFiles": true,
+  "showInlineTitle": true,
+  "foldIndent": true,
+  "showLineNumber": false,
+  "showIndentGuide": false,
+  "readableLineLength": false,
+  "defaultViewMode": "source"
+}
